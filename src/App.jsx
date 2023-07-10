@@ -8,19 +8,22 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Portifolio from './components/Portifolio'
 import Services from './components/Services'
+import ToastProvider from './providers/toast'
 
 function App() {
 
 
   return (
     <>
-     <Header/>
-     <Home/>
-     <About/>
-     <Services/>
-     <Portifolio/>
-     <Contact/>
-     <Footer/>
+      <ToastProvider>
+        <Header />
+        <Home />
+        <About />
+        <Services />
+        <Portifolio />
+        <Contact />
+        <Footer />
+      </ToastProvider>
     </>
   )
 }

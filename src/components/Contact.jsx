@@ -1,6 +1,7 @@
 import './Contact.css'
 import { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from "react-toastify";
 
 export default function Contact() {
 
@@ -12,10 +13,12 @@ export default function Contact() {
             .then((result) => {
                 console.log(result);
             }, (error) => {
-                console.log(error.text);
+                    return toast.error("Ocorreu um erro ao enviar a Menssagem!", { position: "bottom-center" });
             });
 
-        console.log(form.current)
+        console.log(form.current)  
+     
+        toast.success("Messagem enviada com Sucesso!", { position: "bottom-center" });
     }
 
     return (
