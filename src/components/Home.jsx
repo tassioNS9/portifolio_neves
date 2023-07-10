@@ -1,5 +1,5 @@
 import './Home.css'
-import logo_home from "../assets/logo-home.png" ;
+import logo_home from "../../public/assets/logo-home.png" ;
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 

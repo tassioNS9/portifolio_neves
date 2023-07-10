@@ -1,5 +1,5 @@
 import './About.css'
-import logo from "../assets/logo.jpg";
+import logo from "../../public/assets/logo.jpg";
 export default function About() {
 
     return (

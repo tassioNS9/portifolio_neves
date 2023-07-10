@@ -15,11 +15,11 @@ export default function Contact() {
                 console.log(error.text);
             });
 
-            console.log(form.current)
+        console.log(form.current)
     }
 
     return (
-        <section className="contact" id='contact'>
+        <section className="contact" id="contact">
             <h2 className="heading"><span>Contate-me!</span></h2>
 
             <form ref={form} action="" method="post" onSubmit={sendEmail}>

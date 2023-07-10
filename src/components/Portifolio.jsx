@@ -1,11 +1,11 @@
 import './Portifolio.css'
-import cordel_encantado from "../assets/cordel_encantado.png"
-import logo_android from "../assets/logo-android.jpg"
-import finance_image from "../assets/finance_image.png"
-import tn_lib from "../assets/tn_lib.png"
-import tnt_flix from "../assets/tnt_flix.png"
-import logo_burguer from "../assets/logo_burger.png"
-import capputeeno from "../assets/capputeeno_image.png"
+import cordel_encantado from "../../public/assets/cordel_encantado.png"
+import logo_android from "../../public/assets/logo-android.jpg"
+import finance_image from "../../public/assets/finance_image.png"
+import tn_lib from "../../public/assets/tn_lib.png"
+import tnt_flix from "../../public/assets/tnt_flix.png"
+import logo_burguer from "../../public/assets/logo_burger.png"
+import capputeeno from "../../public/assets/capputeeno_image.png"
 export default function Portifolio() {
 
     return (
