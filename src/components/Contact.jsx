@@ -16,9 +16,10 @@ export default function Contact() {
                     return toast.error("Ocorreu um erro ao enviar a Menssagem!", { position: "bottom-center" });
             });
 
-        console.log(form.current)  
      
         toast.success("Messagem enviada com Sucesso!", { position: "bottom-center" });
+        
+        form.current.reset();
     }
 
     return (
