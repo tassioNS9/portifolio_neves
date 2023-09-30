@@ -33,8 +33,8 @@ export default function Home() {
                 <p>Aluno formando em Engenharia da computação na Universidade Federal do Recôncavo da Bahia.</p>
                 <div className="social-media">
                     <a  href="https://www.facebook.com/tassions" target='_blank' rel='noreferrer' ><i className='bx bxl-facebook'></i></a>
-                    <a href="http://"><i className='bx bxl-instagram-alt'></i></a>
-                    <a href="http://"><i className='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/tassio.neves/"  target='_blank'><i className='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.linkedin.com/in/tassio-neves-santos-51aa59180/"  target='_blank'><i className='bx bxl-linkedin'></i></a>
                 </div>
                 <a href="download/CurriculumTassioNeves.pdf" className='btn' download="Curriculo Tassio Neves">Download CV</a>
             </div>
