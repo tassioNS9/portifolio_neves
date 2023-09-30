@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
-    const [toggle, setToggle] = useState(true);
+    const [toggle, setToggle] = useState(false);
 
     function handleclick() {
        setToggle(!toggle)
